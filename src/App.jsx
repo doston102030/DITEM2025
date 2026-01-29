@@ -49,7 +49,9 @@ function App() {
   return (
     <div className="page">
       <div className="top-strip" />
-      <div className="top-banner" />
+      <div className="top-banner">
+        <img src="/logo-banner.jpg" alt="Hamkor tashkilotlar logolari" />
+      </div>
       <header className="header">
         <div className="header-row">
           <div className="logo-circle">

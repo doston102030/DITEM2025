@@ -10,8 +10,17 @@
 }
 
 .top-banner {
-  height: 120px;
-  background: url('/logos-banner.png') center/cover no-repeat;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 12px 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.top-banner img {
+  width: min(100%, 960px);
+  height: auto;
+  display: block;
 }
 
 .header {
