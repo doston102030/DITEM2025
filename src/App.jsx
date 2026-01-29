@@ -5,6 +5,132 @@ const sampleFileName = 'Шаблон_для_статьи_Springer_использ
 const sampleFilePath = `/${sampleFileName}`
 
 const content = {
+  uz: {
+    headerTitle:
+      "V xalqaro ilmiy-amaliy konferensiya “Raqamli texnologiyalar, kompyuter va axborot texnologiyalari, innovatsion pedagogika”",
+    headerSubtitle: 'Maqolalar qabul qilish davom etadi',
+    cta: 'Shablon fayl (Lecture Notes in Networks and Systems)',
+    infoTitle: 'Axborot xati',
+    intro: [
+      "O'zbekiston Respublikasi oliy ta'lim, fan va innovatsiyalar vazirligining 2026-yil 16-yanvardagi 11-son buyrug'iga muvofiq, O'zbekiston Respublikasi oliy ta'lim, fan va innovatsiyalar vazirligi, Farg'ona davlat universiteti, Litva Vilnyus universiteti, Rostov-na-Donu shahrining Janubiy Federal universiteti, Sulton Mulay Sliman Beni Mellal universiteti (USMS) Marokash, Boku shahridagi Ozarbayjon texnika universiteti, Gretsiyaning Peloponnes universiteti, Abay nomidagi Qozog'iston milliy pedagogika universiteti, akademik M. M. Adisheva nomidagi Osh texnologi universiteti, Berdak nomidagi Qoraqalpoq davlat universiteti, AIP Conference Proceedings, Proceedings of SPIE - The International Society for Optical Engineering, Springer Proceedings in Physics, Lecture Notes in Networks and Systems, Electron Laboratory LLC qoshidagi \"Rezonans yadro reaktsiyalar fizikasi\" ilmiy-tadqiqot instituti, Electron Laboratory LLC, \"All Sciences\" xalqaro ilmiy jurnali, Milliy universitet qoshidagi \"Yarimo'tkazgichlar va mikroelektronika fizikasi\" ilmiy-tadqiqot instituti, Andijon Davlat universiteti, Namangan Davlat universiteti, \"Foton\" AJ BMX 2026 yil 7-8 may kunlari konferentsiyani o'tkazmoqda.",
+      "Konferensiyaning maqsadi texnologik ta'lim sohasidagi ilmiy va amaliy tadqiqotlarni birlashtirish, zamonaviy texnologiyalarni ta'lim jarayoniga integratsiya qilish imkoniyatlarini kengaytirish, yangi pedagogik yechimlarni ishlab chiqish va keng ko'lamli xalqaro ilmiy hamkorlik uchun mustahkam platforma yaratishdir.",
+      "Ushbu tadbir texnologik ta'limning jahon tendentsiyalari munosabati bilan milliy ta'lim tizimini uyg'unlashtirishga, ta'lim jarayoniga ilg'or innovatsion ishlanmalarni joriy etishga, ilmiy taraqqiyot sohasidagi so'nggi yutuqlarni kengaytirish va taqdim etishga, jahon ilmiy-tadqiqot jamoalarining yaqin hamkorligini ta'minlashga, fanlararo integratsiyani mustahkamlashga va yosh tadqiqotchilar o'rtasida tajriba almashish platformasini shakllantirishga qaratilgan.",
+      "2026-yil 25-aprelgacha konferensiya seksiyalari koordinatorlariga elektron pochta orqali o'zbek, rus yoki ingliz tillaridagi tezislar va ilmiy maqolalarni yuborishingizni so'raymiz. Taqdim etilgan maqolalar va tezislarning fayl nomida bo'lim raqami bo'lishi kerak.",
+    ],
+    directionsTitle: "Nashr qilish uchun dolzarb yo'nalishlar",
+    tableHead: {
+      number: "Bo'lim raqami",
+      topic: "Bo'lim yo'nalishi",
+      contact: 'Pochta va koordinator',
+    },
+    sections: [
+      {
+        id: '1 - bo‘lim',
+        title:
+          "O'zbekiston taraqqiyotining yangi davrida texnologiyalarni o'qitishni takomillashtirishning mohiyati va ahamiyati",
+        phone: '+998913982397',
+        email: 'gulasal_x@mail.ru',
+      },
+      {
+        id: '2 - bo‘lim',
+        title:
+          "Materialshunoslik va texnologik ta'limdagi nanostrukturalar nazariyasi, texnologiyasi",
+        phone: '+998936431433',
+        email: 'otajonov_s@mail.ru',
+      },
+      {
+        id: '3 - bo‘lim',
+        title:
+          "Texnologik ta'limda avtomatlashtirish va robototexnika o'qitishning kontseptual muammolari va echimlari",
+        phone: '+998972871991',
+        email: 'neo_gizmo1@mail.ru',
+      },
+      {
+        id: '4 - bo‘lim',
+        title:
+          "O'zbekiston taraqqiyotining yangi davrida texnologiyalarni o'qitishni takomillashtirishning mohiyati va ahamiyati",
+        phone: '+998939741023',
+        email: 'boqirov_j@mail.ru',
+      },
+      {
+        id: '5 - bo‘lim',
+        title:
+          "Texnologik fanni o'zgartirishda innovatsion pedagogik va raqamli texnologiyalardan foydalanish istiqbollari",
+        phone: '+998972088068 / +998930418558',
+        email: 'barchin.askarova@mail.ru',
+      },
+      {
+        id: '6 - bo‘lim',
+        title:
+          "Sun'iy intellekt yordamida noan'anaviy energiya manbalaridan foydalanadigan ob'ektlarni boshqarish samaradorligi",
+        phone: '+998939710263',
+        email: 'rova08@mail.ru',
+      },
+    ],
+    essenceTitle: 'Konferensiya mohiyati',
+    essence: [
+      "Konferentsiyaning mohiyati o'qitish texnikasini takomillashtirish bo'yicha ilmiy-uslubiy takliflarni faol ishlab chiqish, materialshunoslik va nanostrukturalar sohasidagi ilg'or tadqiqotlarni muhokama qilish, ularni o'quv va texnologik jarayonga to'liq moslashtirish, o'rganishni avtomatlashtirishdan kelib chiqadigan muammolarni tahlil qilish, robototexnika tamoyillaridan foydalanish, shuningdek, o'qitish usullarini taklif qilishdan iborat.",
+      "Shuningdek, texnologik ta'limda zamonaviy axborot-kommunikatsiya texnologiyalarining rolini kuchaytirish, raqamli ta'lim tizimi imkoniyatlarini kengaytirish va axborot-pedagogik yondashuv bo'yicha ilmiy-amaliy tavsiyalar ishlab chiqiladi.",
+      "Tadbirning muhim yo'nalishi noan'anaviy energiya manbalari bilan bog'liq ilmiy ishlanmalarni taqdim etish, ularning nazariyasi, amaliy qo'llanilishi va ushbu energiya manbalarini ta'lim tizimiga yo'naltirish bo'yicha to'liq o'quv dasturini birlashtirish mexanizmlarini aniqlashdan iborat.",
+      "Olingan ma'lumotlar va erishilgan natijalar asosida Milliy dastur talablariga muvofiq Respublikamiz maktablari va universitetlarida texnologik ta'lim sifatini oshirish bo'yicha uslubiy tavsiyalar va takliflar ishlab chiqiladi.",
+    ],
+    publicationTitle: 'Nashr va ishtirok',
+    publication: [
+      "Konferentsiya materiallari to'plamda nashr etiladi va ishtirokchilar orasida elektron shaklda tarqatiladi. Tezislar va ilmiy maqolalar mualliflari taqdim etgan ma'lumotlar uchun javobgardir. Konferensiya ishida faol ishtirok etgan mualliflar maxsus ishtirokchi sertifikatini oladilar.",
+      "Eng yaxshi deb topilgan tezislar va ilmiy maqolalar Scopus ma'lumotlar bazalariga kiritilgan AIP Conference Proceedings, Proceedings of SPIE - The International Society for Optical Engineering, Springer Proceedings in Physics, Lecture Notes in Networks and Systems kabi nashrlarda chop etilishi mumkin. Konferentsiya ma'muriyati mualliflar bilan keyingi nashr etish masalasi bo'yicha bog'lanadi.",
+      "Shuningdek, qolgan maqolalar mualliflarning talablariga muvofiq \"Rezonans yadro reaktsiyalari fizikasi\" ilmiy-tadqiqot instituti qoshidagi \"All Science\" xalqaro ilmiy jurnalida chop etiladi.",
+      "Tezislarni, ilmiy maqolalarni yuborish va nashr etish, konferentsiyada qatnashish mutlaqo bepul.",
+      'Konferentsiyaning onlayn shakli 2026 yil 7-8 may kunlari soat 9:00 da Zoom platformasida bo\'lib o\'tadi. Zoom konferentsiyasiga havola ro\'yxatdan o\'tishda ko\'rsatilgan elektron pochta manziliga yuboriladi.',
+    ],
+    appendix1Title: '1-ilova: Tezislarni rasmiylashtirish talablari',
+    thesisRequirements: [
+      'Format: doc/docx, hajmi 3 sahifadan oshmasin.',
+      "Maydonlar: chap 3 sm, o'ng 1.5 sm, yuqori 2 sm, past 2 sm.",
+      'Shrift: Times New Roman, 14, satrlar oraligi 1.5.',
+      "Xat boshi: 1.25 sm, qo'shimcha oraliqsiz.",
+      'Sarlavha: bosh harflar, markazga tekislash.',
+      'Mualliflar: to‘liq kursiv, yuqori indekslar bilan, markazda.',
+      'Asosiy matn: eniga tekislash.',
+      "Rasmlar: 150 dpi dan kam bo'lmasin, imzolar raqamlangan.",
+      'Formulalar: Microsoft Equation yoki MathType, majburiy raqamlanadi.',
+    ],
+    articleTitle: 'Maqolalarni rasmiylashtirish talablari',
+    articleRequirements: [
+      'Format: doc/docx, hajmi 30 sahifadan oshmasin.',
+      "Maydonlar: chap 3 sm, o'ng 1.5 sm, yuqori 2 sm, past 2 sm.",
+      'Shrift: Times New Roman, 12, satrlar oraligi 1.',
+      "Xat boshi: 1.25 sm, qo'shimcha oraliqsiz.",
+      'Sarlavha: bosh harflar, yarim qalin, markazga tekislash.',
+      'Mualliflar: to‘liq kursiv, yuqori indekslar bilan, markazda.',
+      'Asosiy matn: eniga tekislash.',
+      "Rasmlar: 150 dpi dan kam bo'lmasin, imzolar raqamlangan.",
+      'Formulalar: Microsoft Equation yoki MathType, majburiy raqamlanadi.',
+    ],
+    note:
+      "Tezislar va ilmiy maqolalar oxirida mualliflarning aloqa ma'lumotlarini ko'rsatish, onlayn yoki offline konferentsiyada chiqish istagini bildirgan mualliflarni pastki chiziq bilan ta'kidlash so'raladi. Tezislar va maqolalar ilgari e'lon qilinmagan asl natijalarni o'z ichiga olishi kerak.",
+    appendix2Title: "2-ilova: Tezislarga qo'shimcha talablar",
+    appendix2Requirements: [
+      'Maqola matni doc formatida, Times New Roman, 14, satr 1.15.',
+      "A4 format: yuqori 20 mm, chap 30 mm, past 20 mm, o'ng 15 mm.",
+      "Tezis nomi qalin, bosh harflarda, markazga tekislash.",
+      'Mualliflar F.I.O va tashkilot to‘liq nomi markazda.',
+      'Asosiy matn 1 sm xatboshi bilan yoziladi.',
+    ],
+    referencesTitle: "Foydalanilgan adabiyotlar ro'yxati:",
+    references: [
+      '[1] F.I.O. Familiyasi. Maqolaning nomi. Jurnalning nomi. (yil), tartib raqami, 1-10-satrlar. DOI yoki jurnal saytidagi havola.',
+      '[2] F.I.O. Familiyasi. Kitob nomi. (Shahar, Nashriyot, Yil) - sahifalar soni.',
+    ],
+    footerTitle: 'Shablon fayl',
+    downloadButton: 'Shablon faylni yuklab olish',
+    scopusButton: 'Lecture Notes in Networks and Systems (Scopus)',
+    contacts: {
+      phone: 'Telefon: +998 90 000 00 00',
+      address: "Manzil: Farg'ona, O'zbekiston",
+      email: 'Email: info@example.uz',
+    },
+    devLink: 'Web Site dasturchi: Ikromov Solijon',
+  },
   ru: {
     headerTitle:
       'V международная научно-практическая конференция «Цифровые технологии, компьютерные и информационные технологии, инновационная педагогика»',
@@ -272,6 +398,13 @@ function App() {
       <header className="header">
         <div className="header-top">
           <div className="lang-switch">
+            <button
+              type="button"
+              className={`lang-button ${lang === 'uz' ? 'active' : ''}`}
+              onClick={() => setLang('uz')}
+            >
+              UZ
+            </button>
             <button
               type="button"
               className={`lang-button ${lang === 'ru' ? 'active' : ''}`}
